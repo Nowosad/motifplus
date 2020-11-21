@@ -1,13 +1,17 @@
 Package: motifplus
-Title: What the Package Does (One Line, Title Case)
+Title: Local Pattern Analysis Extended
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person(given = "Jakub", family = "Nowosad", 
+    role = c("aut", "cre"),
+    email = "nowosad.jakub@gmail.com", 
+    comment = c(ORCID = "0000-0002-1057-3721")))
+Description: A package to test new ideas related to the motif package.
+Imports: 
+    philentropy,
+    sf,
+    stars,
+    tibble
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
